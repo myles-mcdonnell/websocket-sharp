@@ -17,7 +17,7 @@ namespace Example3
        * If you would like to provide the secure connection, you should create the instance
        * with the 'secure' parameter set to true.
        */
-      var httpsv = new HttpServer (4649);
+		var httpsv = new HttpServer (80);
       //httpsv = new HttpServer (4649, true);
 #if DEBUG
       // To change the logging level.

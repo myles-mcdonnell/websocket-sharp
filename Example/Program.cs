@@ -19,9 +19,9 @@ namespace Example
        * the instance with the wss scheme WebSocket URL.
        */
       using (var nf = new Notifier ())
-      using (var ws = new WebSocket ("ws://echo.websocket.org"))
+				//using (var ws = new WebSocket ("ws://echo.websocket.org"))
       //using (var ws = new WebSocket ("wss://echo.websocket.org"))
-      //using (var ws = new WebSocket ("ws://localhost:4649/Echo"))
+	  using (var ws = new WebSocket ("ws://localhost:80/Echo"))
       //using (var ws = new WebSocket ("ws://localhost:4649/Echo?name=nobita"))
       //using (var ws = new WebSocket ("wss://localhost:4649/Echo"))
       //using (var ws = new WebSocket ("ws://localhost:4649/Chat"))

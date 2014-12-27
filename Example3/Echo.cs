@@ -10,6 +10,7 @@ namespace Example3
     {
       var name = Context.QueryString["name"];
       var msg = !name.IsNullOrEmpty () ? String.Format ("'{0}' to {1}", e.Data, name) : e.Data;
+		Console.WriteLine ("Server : Echo : " + msg);
       Send (msg);
     }
   }
